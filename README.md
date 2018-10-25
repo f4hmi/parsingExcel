@@ -3,11 +3,12 @@ Library ini berguna untuk parsing excel menggunakan PHPExcel.
 cara penggunaan :
 # Untuk Parsing All Sheet
 ```php
+$status = true;
 $result = parsingExcel::parsingExcel($dir_file);
 ```
 # Untuk Memilih Sheet yang di inginkan
 ```php
-$status = true;
+$status = false;
 $numberSheet = 0;
 $result = parsingExcel::parsingExcel($dir_file,$status,$numberSheet);
 ```
